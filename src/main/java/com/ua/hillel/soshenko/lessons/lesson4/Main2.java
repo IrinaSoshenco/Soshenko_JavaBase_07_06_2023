@@ -1,4 +1,4 @@
-package com.ua.hillel.soshenko.lessons.Lesson4;
+package com.ua.hillel.soshenko.lessons.lesson4;
 
 public class Main2 {
     public static void main(String[] args) {
@@ -16,7 +16,7 @@ public class Main2 {
 
         int generalAttackLi = (warriorLi + archerLi + riderLi) * totalLi;
         int generalAttackMin = (warriorMin + archerMin + riderMin) * totalMin;
-        System.out.println("Загальна атака армії Li = " + generalAttackLi + "" + "." + " " + "Загальна атака армії Min = " + generalAttackMin);
+        System.out.println("Загальна атака армії Li = " + generalAttackLi + " " + "." + " " + "Загальна атака армії Min = " + generalAttackMin);
 
 
 

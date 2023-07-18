@@ -1,4 +1,4 @@
-package com.ua.hillel.soshenko.lessons.Lesson4;
+package com.ua.hillel.soshenko.lessons.lesson4;
 
 public class Main1 {
     public static void main(String[] args) {
