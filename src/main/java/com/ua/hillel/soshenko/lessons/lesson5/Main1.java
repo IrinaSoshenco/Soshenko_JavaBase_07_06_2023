@@ -5,6 +5,12 @@ import java.util.Scanner;
 public class Main1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Будьласка, введіть назву першої команди");
+        String teamName1 = scanner.nextLine();
+        System.out.println("Назва першої команди " + teamName1);
+        System.out.println("Будьласка, введіть назву другої");
+        String teamName2 = scanner.nextLine();
+        System.out.println("Назва першої команди " + teamName2);
 // Перша
         System.out.println("Будьласка, введіть силу атаки гравця 1 з команди Hello Java");
         int team1Player1 = 1;
@@ -97,13 +103,13 @@ public class Main1 {
         }
 
 
-        String teamName1 = "Hello Java";
-        int sum1 = team1Player1 + team1Player2 + team1Player3 + team1Player4 + team1Player5;
-        int result1 = sum1 / 5;
 
-        String teamName2 = "Hello Git";
+        int sum1 = team1Player1 + team1Player2 + team1Player3 + team1Player4 + team1Player5;
+        double result1 = (double) sum1 / 5;
+
+
         int sum2 = team2Player1 + team2Player2 + team2Player3 + team2Player4 + team2Player5;
-        int result2 = sum2 / 5;
+        double result2 = (double) sum2 / 5;
         System.out.println("Середня сила атаки гравців команди " + teamName1 + "=" + result1);
         System.out.println("Середня сила атаки гравців команди " + teamName2 + "=" + result2);
 
