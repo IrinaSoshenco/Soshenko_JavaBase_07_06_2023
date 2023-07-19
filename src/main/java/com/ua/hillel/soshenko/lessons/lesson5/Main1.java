@@ -8,7 +8,7 @@ public class Main1 {
         System.out.println("Будьласка, введіть назву першої команди");
         String teamName1 = scanner.nextLine();
         System.out.println("Назва першої команди " + teamName1);
-        System.out.println("Будьласка, введіть назву другої");
+        System.out.println("Будьласка, введіть назву другої команди");
         String teamName2 = scanner.nextLine();
         System.out.println("Назва першої команди " + teamName2);
 // Перша
