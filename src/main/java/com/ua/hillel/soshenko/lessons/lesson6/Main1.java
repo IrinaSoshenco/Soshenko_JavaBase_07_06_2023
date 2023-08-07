@@ -17,7 +17,7 @@ public class Main1 {
                     System.out.println("Ви перемогли!!!");
                     break;}
                 else{
-                        System.out.println("Спробуйте знову");
+                        System.out.println("Ви не вгадали((");
                     }
                 }
 
