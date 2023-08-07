@@ -9,7 +9,13 @@ public class Main {
         int M = 1;
         if (scanner.hasNextInt()) {
             M = scanner.nextInt();
-        } else {
+            if (M <= 0) {
+                System.out.println("Wrong data");
+                System.exit(0);
+            }
+
+        }
+            else {
             System.out.println("Wrong data");
             System.exit(0);
         }
@@ -17,6 +23,11 @@ public class Main {
         int N = 2;
         if (scanner.hasNextInt()) {
             N = scanner.nextInt();
+            if (N <= 0){
+                System.out.println("Wrong data");
+                System.exit(0);
+            }
+
         } else {
             System.out.println("Wrong data");
             System.exit(0);

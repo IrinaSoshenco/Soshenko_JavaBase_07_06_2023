@@ -1,4 +1,4 @@
-package com.ua.hillel.soshenko.lessons.lesson6;
+package com.ua.hillel.soshenko.lessons.lesson6.homework7;
 
 import java.util.Scanner;
 
