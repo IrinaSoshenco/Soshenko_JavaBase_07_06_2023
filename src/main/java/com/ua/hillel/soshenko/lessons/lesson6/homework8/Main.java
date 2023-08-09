@@ -1,26 +1,28 @@
 package com.ua.hillel.soshenko.lessons.lesson6.homework8;
 
+import java.util.Random;
+
 public class Main {
     public static void main(String[] args) {
-        int counter = 0;
-        for (int i = 100; counter < 100; i++) {
-                boolean ok = true;
-                int number = i;
-                while (number > 0) {
-                    int result = number % 10;
-                    if (result == 4 || result == 9) {
-                        ok = false;
-                        break;
-                    }
-                    number = number / 10;
-                }
-                if (ok) {
-                    System.out.println("shuttle number: " + i);
-                    counter++;
-                }
+        Random random = new Random();
+        int count = 0;
+
+        while (count < 100) {
+            int number = random.nextInt(900) + 100;
+
+            String str = Integer.toString(number);
+
+            if (str.contains("4") || str.contains("9")) {
+                continue;
             }
-            System.out.println("counter = " + counter);
+            System.out.println("Номер шатла " + number);
+            count++;
+
 
         }
+        System.out.println("Кількість = " + count);
+
     }
+
+}
 
